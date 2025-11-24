@@ -4,7 +4,8 @@
   "packageRules": [
     {
       "matchPackageNames": ["webpack", "node"],
-      "groupName": "Example PR that does NOT update yarn cache"
+      "groupName": "Example PR that does NOT update yarn cache",
+      "skipInstalls": false
     },
     {
       "matchPackageNames": ["vue"],
